@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Liam webpage</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/png" href="/img/noah.jpg">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">! Liam✞</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/noahicon.gif" alt="Noah">
+            </div>
+            <h1>! Liam✞#1413</h1>
+            <h2>Administrador - Desarrollador de Discord</h2>
+            <div class="redes">
+                <a href="https://twitter.com/Noaan100?t=eKvH6fQiYwLE5URocKK73A&s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://discord.com/users/727616639188598885"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.youtube.com/@liam.r778"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://open.spotify.com/user/31urx53gf2mcnupzuayl7drzbv54?si=624fd185ae914cb6"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=19kpewh45oeit&utm_content=pl1uylw"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Liam.</span> Bienvenidos a mi pagina web de perfil donde podrán ver mis talentos y mi experiencia en el mundo de Discord, también tendrán datos de contacto en caso que quieran comunicarse conmigo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            24-06-2005
+                        </li>
+                        <li>
+                            <strong>Alias</strong>
+                            Liam-Noah
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            noaaaanh@gmail.com
+                        </li>
+                        <li>
+                            <strong>Especialidad</strong>
+                            <span>MANAGER</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fas fa-tv"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-wrench"></i>
+                            <span>GESTIÓN</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>MODERAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                            <span>PODCAST</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gift"></i>
+                            <span>EVENTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>TypeScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Discord Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Experiencia Staff</h3>
+                    <div class="item izq">
+                        <h4>Co-Owner</h4>
+                        <span class="casa">RenHub 35k</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Mi primer servidor profesional nsfw, tambien mi primer servidor como staff actualmente sigue funcionamiento.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Owner</h4>
+                        <span class="casa">Sukit child 10k</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Segundo servidor grande donde empecé a moderar/programar, actualmente se encuentra inactivo.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ceo</h4>
+                        <span class="casa">Two Hub 200-230k</span>
+                        <span class="fecha">2022-2023</span>
+                        <p>Empecé en este servidor a moderar/programar poco a poco subi a admin, luego moderador y finalmente ceo.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Manager</h4>
+                        <span class="casa">Demon hub 300-340k</span>
+                        <span class="fecha">2022-2023</span>
+                        <p>Empecé en este servidor a mediados del 2022, actualmente administro la actividad/comportamiento.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Developer</h3>
+                    <div class="item der">
+                        <h4>Creador de Simple Games</h4>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Primer bot que cree con funciones de no solo entretenimiento si no también moderación.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div></div>
+                     <div class="item der">
+                        <h4>Help administrative</h4>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Segundo bot que empecé, lo desarrolle en general para evitar raids,spam,links,flood, cualquier tipo de molestia o inconveniente para los staffs.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+                <a href="https://twitter.com/Noaan100?t=eKvH6fQiYwLE5URocKK73A&s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://discord.com/users/727616639188598885"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.youtube.com/@liam.r778"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://open.spotify.com/user/31urx53gf2mcnupzuayl7drzbv54?si=624fd185ae914cb6"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=19kpewh45oeit&utm_content=pl1uylw"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
